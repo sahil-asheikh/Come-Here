@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Come Here</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <p id="ComeHere"></p>
+
+    <script>
+
+        var r_text = new Array ();
+
+
+        r_text[0] = "I wanna hug you";
+        r_text[1] = "I wanna Kiss you";
+        r_text[2] = "I wanna see you";
+        r_text[3] = "I wanna Cuddle";
+        r_text[4] = "I wanna fuck you";
+        r_text[5] = "I wanna sleep with you";
+        r_text[6] = "I will show some love to you";
+        r_text[7] = "I will always be with you";
+        r_text[8] = "I will never leave you";
+        r_text[9] = "I wanna be with you";
+        r_text[10] = "I will hold you hand";
+
+        var pre_text = 'Come Here, ';
+
+        var i = Math.floor(11 * Math.random())
+
+        document.getElementById("ComeHere").innerHTML = pre_text + r_text[i];
+
+    </script>
+
+    
+</body>
+</html>
