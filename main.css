@@ -11,7 +11,7 @@
 
     .note{
         position: fixed;
-        bottom: 20%;
+        bottom: 8%;
         width: 100%;
         color: whitesmoke;
         text-align: center;
@@ -28,5 +28,5 @@
         color: white;
         text-align: center;
         font-family: Verdana;
-        letter-spacing: 30px;
+        /* letter-spacing: 10px; */
     }
