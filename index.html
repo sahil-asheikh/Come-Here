@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Come Here</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Come Here</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
 
-    <p id="ComeHere"></p>
-    
-    <div class="note">
-        take a screenshot and share with your partner
-    </div>
+        <p id="ComeHere"></p>
+        
+        <div class="note">
+            take a screenshot and share with your partner
+        </div>
 
-    <script>
+        <script>
 
-        var r_text = new Array ();
+            var r_text = new Array ();
 
+            r_text[0] = "I wanna hug you";
+            r_text[1] = "I wanna Kiss you";
+            r_text[2] = "I wanna see you";
+            r_text[3] = "I wanna Cuddle";
+            r_text[4] = "I wanna fu*k you";
+            r_text[5] = "I wanna sleep with you";
+            r_text[6] = "I will show some love to you";
+            r_text[7] = "I will always be with you";
+            r_text[8] = "I will never leave you";
+            r_text[9] = "I wanna be with you";
+            r_text[10] = "I will hold you hand";
+            r_text[11] = "I wanna do guchi guchi with you";
+            r_text[13] = "I'll give you a warm hug ";
+            r_text[14] = "I'll love you forever";
+            r_text[15] = "I'll make you happier than ever";
+            r_text[16] = "because i love you the most";
+            r_text[17] = "and let me see your beautiful eyes showering love";
+            r_text[18] = "I wanna be yours forever";
+            r_text[19] = "I will kiss you";
 
-        r_text[0] = "I wanna hug you";
-        r_text[1] = "I wanna Kiss you";
-        r_text[2] = "I wanna see you";
-        r_text[3] = "I wanna Cuddle";
-        r_text[4] = "I wanna fu*k you";
-        r_text[5] = "I wanna sleep with you";
-        r_text[6] = "I will show some love to you";
-        r_text[7] = "I will always be with you";
-        r_text[8] = "I will never leave you";
-        r_text[9] = "I wanna be with you";
-        r_text[10] = "I will hold you hand";
-        r_text[11] = "I wanna do guchi guchi with u";
-        r_text[13] = "I'll give you a warm hug ";
-        r_text[14] = "I'll love you forever";
-        r_text[15] = "I'll make you happier than ever";
-        r_text[16] = "because i love you the most";
-        r_text[17] = "and let me see your beautiful eyes showering love";
-        r_text[18] = "I wanna be yours forever";
+            var pre_text = 'Come Here, ';
 
+            var i = Math.floor(20 * Math.random());
 
-        var pre_text = 'Come Here, ';
+            document.getElementById("ComeHere").innerHTML = pre_text + r_text[i];
 
-        var i = Math.floor(19 * Math.random());
+        </script>
 
-        document.getElementById("ComeHere").innerHTML = pre_text + r_text[i];
-
-    </script>
-
-    <div class="footer">
-        <h3>Begawo & NewHere</h3>
-    </div>
-    
-</body>
+        <div class="footer">
+            <h3>Begawo & NewHere</h3>
+        </div>
+        
+    </body>
 </html>
